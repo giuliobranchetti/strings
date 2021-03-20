@@ -14,8 +14,11 @@ import java.util.regex.PatternSyntaxException;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public abstract class Strings {
-
+public class Strings {
+	
+	private Strings() {
+	}
+	
 	public static String indentTabs(int tabs) {
 		return repeat("\t", tabs);
 	}
