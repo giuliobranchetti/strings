@@ -3,27 +3,6 @@ package strings.tests;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static strings.Strings.*;
-import static strings.Strings.charMatches;
-import static strings.Strings.equalsAnyOf;
-import static strings.Strings.fromCamelCase;
-import static strings.Strings.highlightSubstring;
-import static strings.Strings.lines;
-import static strings.Strings.mapChars;
-import static strings.Strings.matchedGroups;
-import static strings.Strings.repeat;
-import static strings.Strings.replaceCharAt;
-import static strings.Strings.reverse;
-import static strings.Strings.sideBySide;
-import static strings.Strings.splitKeeping;
-import static strings.Strings.stringify;
-import static strings.Strings.substringBetween;
-import static strings.Strings.substringOccurrences;
-import static strings.Strings.substringsBetween;
-import static strings.Strings.toCamelCase;
-import static strings.Strings.toCharStream;
-import static strings.Strings.trimChars;
-import static strings.Strings.whitespace;
-import static strings.Strings.words;
 
 import java.util.List;
 
